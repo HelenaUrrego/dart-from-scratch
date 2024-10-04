@@ -13,7 +13,7 @@ class Challenger1 {
       print("El cuadrado del número ${numero} es: ${resultado}.");
     } else if (numero < 0) {
       print(
-          "El número ${numero} no se puede elevar al cuadrado, no es positivo.");
+          "El número ${numero} no es positivo, por lo tanto no se puede elevar al cuadrado.");
     } else {
       print("El número es cero: ${numero}");
     }
@@ -91,7 +91,7 @@ class Challenger5 {
         print("Viernes(dia laboral)");
         break;
       case 6:
-        print(" dia no laboral");
+        print("Número fuera del rango laboral");
         break;
       case 7:
         print(" dia no laboral");

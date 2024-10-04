@@ -6,10 +6,10 @@ class Menu {
     print(
         '2. Solicita al usuario dos números. Si el primero es mayor, devuelva su doble, de lo contario devuelva el triple del segundo');
     print(
-        '3. Pida al usuario un numero. Si es positivo devuelve su raiz cuadrada,de lo contrario, devuelve su cuadrado');
+        '3. Pide al usuario un numero. Si es positivo devuelve su raiz cuadrada,de lo contrario, devuelve su cuadrado');
     print('4. Pide al usuario el radio de un círculo y calcula su perímetro.');
     print(
-        '5. Solicita al usuario un numero entre 1 y 7 y decir el dia de semana, pero solo dias laborales.');
+        '5. Solicita al usuario un numero entre 1 y 7 y muestra el dia de semana correspondiente, pero solo considerando los días laborables.');
     print(
         '6. Solicita al usuario su salario anual y, si este excede los 12000,muestra el impuesto a pagar que es el 15% del excedente.');
     print(

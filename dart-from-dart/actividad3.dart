@@ -3,9 +3,9 @@ import 'Ejercicios/index.dart';
 import 'Menu/index.dart';
 
 void main(){
-  print('Ingrese su nombre:');
+  print('Digite su nombre:');
   String? nombre = stdin.readLineSync()!;
-  print("¡Hola, ${nombre}! Por favor, elija un ejercicio:");
+  print("¡Hola, ${nombre}! Por favor, elija un ejercicio ingresando el número del que escogio:");
 
   var menu = new Menu();
   menu.MostrarMenu();
@@ -88,14 +88,14 @@ void main(){
           break;
 
         default:
-          print("Presiona una tecla para continuar..");
+          print("Pulse cualquier tecla para continuar");
           stdin.readByteSync();
           menu.MostrarMenu();
           break;
       }
     } else {
       print(
-          "Opción no válida. Por favor, ingrese un número entre 1 y 15, o 'q' o 'exit' para salir");
+          "Su elección es incorrecta. Por favor, introduce un número entre 1 y 15, o escribe 'q' o 'exit' para salir.");
     }
   }
   print("Hasta luego");
